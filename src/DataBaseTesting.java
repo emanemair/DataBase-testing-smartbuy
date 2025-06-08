@@ -26,7 +26,7 @@ public class DataBaseTesting {
 	@BeforeTest 
 	public void MySetup() throws SQLException {
 		
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels" , "root" , "lolita@Rey12"); 
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels" , "root" , "123456"); 
 		driver.get("https://smartbuy-me.com/ar/account/register");
 		
 	}
