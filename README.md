@@ -42,3 +42,34 @@ The core idea of this project is to:
 4. Update database connection string if necessary:
    ```java
    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels" , "root" , "your_password");
+
+5. Run the test cases using TestNG.
+
+
+## ✅ Test Cases
+
+| Test Method         | Description                                               |
+|---------------------|-----------------------------------------------------------|
+| `InsertIntoDatabase`| Adds a new customer to the database.                      |
+| `UpdateQuery`       | Updates customer’s first name.                            |
+| `ReadData`          | Reads customer data and fills in a web form.              |
+| `DeleteData`        | Deletes order records related to a specific customer.     |
+
+## 🔐 Security Note
+
+- **Never commit sensitive information** (e.g., database passwords) to version control.
+- Consider using `.env` files or **environment variables** for secure credential management.
+
+## 📸 Example Website Used
+
+- **[SmartBuy Registration Page](https://smartbuy-me.com/ar/account/register)**
+
+> ⚠️ The `ReadData()` method fills this form automatically based on DB values.
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is open-source 
