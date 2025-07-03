@@ -64,12 +64,5 @@ The core idea of this project is to:
 
 - **[SmartBuy Registration Page](https://smartbuy-me.com/ar/account/register)**
 
-> ⚠️ The `ReadData()` method fills this form automatically based on DB values.
 
-## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-This project is open-source 
